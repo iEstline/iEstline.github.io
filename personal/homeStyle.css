@@ -1,0 +1,215 @@
+.topbackhome{
+  background-image: url("images/homeMe.gif");
+  background-size: cover;
+  width: 100%;
+  height: 1024px;
+  position:relative;
+}
+
+.topbackhome2{
+  background-image: url("images/medal.gif");
+  background-size: cover;
+  width: 100%;
+  height: 1024px;
+  position:relative;
+}
+
+.bottombackhome{
+  background-image: url("images/souljatai.gif");
+  background-size: cover;
+  width: 100%;
+  height: 970px;
+}
+
+.bottombackhome2{
+  background-image: url("images/homeBMW.gif");
+  background-size: cover;
+  width: 100%;
+  height: 970px;
+}
+
+.topbackhome3{
+  background-image: url("images/aspirationshome.gif");
+  background-size: cover;
+  width: 100%;
+  height: 1024px;
+  position:relative;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.logoMove {
+  padding-top: 24px;
+  padding-left: 24px;
+}
+
+body {
+  margin: 0px;
+}
+
+.navbarMove {
+  padding-bottom: 0px;
+  display: flex;
+  position:fixed;
+  z-index:100;
+  /*background: rgba(0, 0, 0, 0.3);*/
+  width:100%;
+}
+.homeFont {
+  color: #D0D0B0;
+}
+
+.navbar {
+  color: white;
+  font-family: Arial;
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-size: 25px;
+  padding-left:20px;
+}
+
+.navbar:hover {
+  color: #B0B0B0;
+}
+
+.navbar:active {
+    color: #B0B0B0;
+}
+
+
+.topbox {
+  position: relative;
+  float: right;
+  width: 400px;
+  height: 700px;
+  /*background-color: grey;*/
+  right:0px;
+  top:170px;
+  padding:30px;
+}
+
+.bottombox {
+  position: relative;
+  float: left;
+  width: 400px;
+  height: 400px;
+
+  left:0px;
+  top:400px;
+  padding:30px;
+}
+
+.topboxtitle {
+  position: absolute;
+  left:1078px;
+  bottom:750px;
+  z-index:3;
+}
+
+.thirdsectiontitle {
+  position:relative;
+  top:200px;
+  color: white;
+  font-family: Arial;
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-size: 45px;
+  padding-left:20px;
+}
+
+.fourthsectiontitle {
+  position:relative;
+  top:300px;
+  color: white;
+  font-family: Arial;
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-size: 45px;
+  padding-left:50px;
+}
+
+.bottomboxtitle {
+  top: 1380px;
+  left:30px;
+  position:absolute;
+  z-index:4;
+}
+
+.pFont {
+  position: relative;
+  left:20px;
+  bottom: 10px;
+  color: white;
+  font-size:20px;
+  line-height: 40px;
+  font-family: verdana;
+  text-decoration: none;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  z-index: 20;
+  padding-top:35px;
+}
+
+a.ftext {
+  color: white;
+  font-family: verdana;
+  text-decoration: none;
+  padding-right: 60px;
+}
+
+a.ftext:hover {
+  color: grey;
+}
+
+.learnMore {
+  position:relative;
+  top:200px;
+  left:20px;
+  background: url("images/learnmoreoff.gif");
+  width:300px;
+  height:170px;
+  background-size:300px 170px;
+  background-repeat: no-repeat;
+}
+
+.learnMore:hover {
+  background: url("images/learnmoreon.gif");
+  width:300px;
+  height:170px;
+  background-size:300px 170px;
+  background-repeat: no-repeat;
+}
+
+.learnMore2 {
+  position:relative;
+  bottom:150px;
+  left:20px;
+  background: url("images/learnmoreoff.gif");
+  width:300px;
+  height:170px;
+  background-size:300px 170px;
+  background-repeat: no-repeat;
+}
+
+.learnMore2:hover {
+  background: url("images/learnmoreon.gif");
+  width:300px;
+  height:170px;
+  background-size:300px 170px;
+  background-repeat: no-repeat;
+}
